@@ -12,15 +12,21 @@
   "parameters": {
     "ShortcutName": {
       "type": "string",
-      "displayName": "Shortcut Name",
-      "description": "The name to assign to the shortcut file.",
-      "defaultValue": "Azure Portal - Shortcut"
+      "displayName": "Nom du raccourci",
+      "description": "Le nom a donné au raccourci.",
+      "defaultValue": "Azure Portal - Raccourci"
     },
     "ShortcutTargetPath": {
       "type": "string",
-      "displayName": "Shortcut Target",
-      "description": "The intranet or internet URL that'll be invoked by this shortcut (Please ensure that the string is url-encoded).",
+      "displayName": "Emplacement du raccourci",
+      "description": "Entrez le URL internet ou intranet.",
       "defaultValue": "http://portal.azure.com"
+    },
+    "ShortcutBlackHole": {
+      "type": "string",
+      "displayName": "Nom du trou noir",
+      "description": "Nom du trou noir de Steven Hawkings",
+      "defaultValue": "JH-09876"
     }
   },
   "runCommand": {
